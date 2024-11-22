@@ -8,7 +8,7 @@
 <p align="center">A Minecraft Fabric Utility Mod.</p>
 
 <div align="center">
-    <!-- unavailable unless the repo is public, leave them in -->
+    <!-- unavailable unless the repo is public, leave them in 
     <a href="https://discord.gg/ewztymE6xM"><img src="https://img.shields.io/discord/1309575951117586502?logo=discord" alt="Discord"/></a>
     <br>
     <img src="https://img.shields.io/github/last-commit/equalizer-development/equalizer" alt="GitHub last commit"/>
@@ -18,7 +18,7 @@
     <img src="https://img.shields.io/github/languages/code-size/equalizer-development/equalizer" alt="GitHub code size in bytes"/>
     <img src="https://img.shields.io/endpoint?url=https://ghloc.vercel.app/api/equalizer-development/equalizer/badge?filter=.java$&label=lines%20of%20code&color=blue" alt="GitHub lines of code"/>
 </div>
-
+-->
 ## Usage
 
 ### Building
