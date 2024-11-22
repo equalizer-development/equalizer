@@ -17,8 +17,9 @@
     <br>
     <img src="https://img.shields.io/github/languages/code-size/equalizer-development/equalizer" alt="GitHub code size in bytes"/>
     <img src="https://img.shields.io/endpoint?url=https://ghloc.vercel.app/api/equalizer-development/equalizer/badge?filter=.java$&label=lines%20of%20code&color=blue" alt="GitHub lines of code"/>
+    -->
 </div>
--->
+
 ## Usage
 
 ### Building
