@@ -9,7 +9,7 @@
 
 <div align="center">
     <!-- unavailable unless the repo is public, leave them in -->
-    <a href="https://discord.gg/bBGQZvd"><img src="https://img.shields.io/discord/689197705683140636?logo=discord" alt="Discord"/></a>
+    <a href="https://discord.gg/ewztymE6xM"><img src="https://img.shields.io/discord/1309575951117586502?logo=discord" alt="Discord"/></a>
     <br>
     <img src="https://img.shields.io/github/last-commit/equalizer-development/equalizer" alt="GitHub last commit"/>
     <img src="https://img.shields.io/github/commit-activity/w/equalizer-development/equalizer" alt="GitHub commit activity"/>
