@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "name": "Meteor Client",
+  "name": "Equalizer",
   "id": "meteor-client",
   "version": "${version}",
-  "description": "Based utility mod.",
+  "description": "Based utility fork.",
   "authors": [
-    "MineGame159",
-    "squidoodly",
-    "seasnail"
+    "z32k",
+    "Xargana",
+    "inon13"
   ],
   "contact": {
-    "homepage": "https://meteorclient.com",
-    "issues": "https://github.com/MeteorDevelopment/meteor-client/issues",
-    "sources": "https://github.com/MeteorDevelopment/meteor-client",
-    "discord": "https://meteorclient.com/discord"
+    "homepage": "https://eq.xargana.com",
+    "issues": "https://github.com/equalizer-development/equalizer/issues",
+    "sources": "https://github.com/equalizer-development/equalizer",
+    "discord": "https://discord.gg/m9SXT4hk"
   },
   "license": "GPL-3.0",
   "icon": "assets/meteor-client/icon.png",
@@ -34,11 +34,11 @@
   "accessWidener": "meteor-client.accesswidener",
   "custom": {
     "meteor-client:devbuild": "${devbuild}",
-    "meteor-client:color": "145,61,226",
+    "meteor-client:color": "236,25,89",
     "meteor-client:commit": "${commit}",
     "modmenu": {
       "links": {
-        "modmenu.discord": "https://meteorclient.com/discord"
+        "modmenu.discord": "https://discord.gg/m9SXT4hk"
       }
     }
   },
