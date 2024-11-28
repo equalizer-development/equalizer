@@ -5,13 +5,19 @@
 
 package meteordevelopment.meteorclient.systems.proxies;
 
-import meteordevelopment.meteorclient.settings.*;
+import java.util.Objects;
+
+import meteordevelopment.meteorclient.settings.BoolSetting;
+import meteordevelopment.meteorclient.settings.EnumSetting;
+import meteordevelopment.meteorclient.settings.IntSetting;
+import meteordevelopment.meteorclient.settings.Setting;
+import meteordevelopment.meteorclient.settings.SettingGroup;
+import meteordevelopment.meteorclient.settings.Settings;
+import meteordevelopment.meteorclient.settings.StringSetting;
 import meteordevelopment.meteorclient.utils.Utils;
 import meteordevelopment.meteorclient.utils.misc.ISerializable;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtElement;
-
-import java.util.Objects;
 
 public class Proxy implements ISerializable<Proxy> {
     public final Settings settings = new Settings();
@@ -86,6 +92,7 @@ public class Proxy implements ISerializable<Proxy> {
         protected int port = 0;
         protected String name = "";
         protected String username = "";
+        protected String password = "";
         protected boolean enabled = false;
 
         public Builder type(ProxyType type) {
@@ -113,10 +120,16 @@ public class Proxy implements ISerializable<Proxy> {
             return this;
         }
 
+        public Builder password(String password) {
+            this.password = password;
+            return this;
+        }
+
         public Builder enabled(boolean enabled) {
             this.enabled = enabled;
             return this;
         }
+        
 
         public Proxy build() {
             Proxy proxy = new Proxy();
@@ -126,6 +139,7 @@ public class Proxy implements ISerializable<Proxy> {
             if (port != proxy.port.getDefaultValue()) proxy.port.set(port);
             if (!name.equals(proxy.name.getDefaultValue())) proxy.name.set(name);
             if (!username.equals(proxy.username.getDefaultValue())) proxy.username.set(username);
+            if (password != null) proxy.password.set(password);
             if (enabled != proxy.enabled.getDefaultValue()) proxy.enabled.set(enabled);
 
             return proxy;
@@ -157,4 +171,5 @@ public class Proxy implements ISerializable<Proxy> {
         Proxy proxy = (Proxy) o;
         return Objects.equals(proxy.address.get(), this.address.get()) && Objects.equals(proxy.port.get(), this.port.get());
     }
+    
 }
