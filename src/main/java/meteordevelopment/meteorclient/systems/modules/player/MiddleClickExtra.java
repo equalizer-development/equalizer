@@ -38,7 +38,7 @@ public class MiddleClickExtra extends Module {
     private final Setting<Mode> mode = sgGeneral.add(new EnumSetting.Builder<Mode>()
         .name("mode")
         .description("Which item to use when you middle click.")
-        .defaultValue(Mode.Pearl)
+        .defaultValue(Mode.AddFriend)
         .build()
     );
 
@@ -99,7 +99,6 @@ public class MiddleClickExtra extends Module {
             if (!Friends.get().isFriend(player)) {
                 Friends.get().add(new Friend(player));
                 info("Added %s to friends", player.getName().getString());
-                if (message.get()) ChatUtils.sendPlayerMsg("/msg " + player.getName() + " I just friended you on Meteor.");
             } else {
                 Friends.get().remove(Friends.get().get(player));
                 info("Removed %s from friends", player.getName().getString());
