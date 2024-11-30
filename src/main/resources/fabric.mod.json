@@ -34,7 +34,7 @@
   "accessWidener": "meteor-client.accesswidener",
   "custom": {
     "meteor-client:devbuild": "${devbuild}",
-    "meteor-client:color": "236,25,89",
+    "meteor-client:color": "250,40,90",
     "meteor-client:commit": "${commit}",
     "modmenu": {
       "links": {
@@ -44,7 +44,7 @@
   },
   "depends": {
     "java": ">=21",
-    "minecraft": ["1.21.2", "${minecraft_version}"],
+    "minecraft": ["1.21.2", "1.21.1", "${minecraft_version}"],
     "fabricloader": ">=${loader_version}"
   },
   "breaks": {
