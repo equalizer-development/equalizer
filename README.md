@@ -1,10 +1,12 @@
 <!-- remove comments at initial release, update the links to equalizer website -xargana -->
 
 <p align="center">
-<img src="https://xargana.com/media/equalizer.png" alt="logo" width="15%"/>
+    <img src="https://xargana.com/media/amazingfilename2.png" alt="logo" width="40%"/>
 </p>
 
-<h1 align="center">Equalizer</h1>
+<h1 align="center">
+    Equalizer
+</h1>
 <p align="center">A Minecraft Fabric Utility Mod.</p>
 
 <div align="center">
@@ -52,7 +54,7 @@ You will be rewarded with a role on our Discord server and a customisable in-gam
 
 ## Credits
 <!-- [Cabaletta](https://github.com/cabaletta) and [WagYourTail](https://github.com/wagyourtail) for [Baritone](https://github.com/cabaletta/baritone)  -->
-The [Fabric Team](https://github.com/FabricMC) for [Fabric](https://github.com/FabricMC/fabric-loader) and [Yarn](https://github.com/FabricMC/yarn)
+The [Fabric Team](https://github.com/FabricMC) for [Fabric](https://github.com/FabricMC/fabric-loader) and [Yarn](https://github.com/FabricMC/yarn)  
 [Meteor Development](https://github.com/MeteorDevelopment) for [Meteor Client](https://github.com/MeteorDevelopment/meteor-client)
 
 ## Licensing
