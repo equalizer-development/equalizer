@@ -72,7 +72,7 @@ public class Config extends System<Config> {
     public final Setting<Boolean> customWindowTitle = sgVisual.add(new BoolSetting.Builder()
         .name("custom-window-title")
         .description("Show custom text in the window title.")
-        .defaultValue(false)
+        .defaultValue(true)
         .onModuleActivated(setting -> mc.updateWindowTitle())
         .onChanged(value -> mc.updateWindowTitle())
         .build()
@@ -105,7 +105,7 @@ public class Config extends System<Config> {
 
     public final Setting<Boolean> chatFeedback = sgChat.add(new BoolSetting.Builder()
         .name("chat-feedback")
-        .description("Sends chat feedback when meteor performs certain actions.")
+        .description("Sends chat feedback when equalizer performs certain actions.")
         .defaultValue(true)
         .build()
     );

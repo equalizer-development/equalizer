@@ -591,6 +591,9 @@ public class Modules extends System<Modules> {
         add(new ServerSpoof());
         add(new SoundBlocker());
         add(new Spam());
+        add(new HitSpam());
+        add(new PacketLoggerModule());
+    //    add(new ArrowSpam());
     }
 
     public static class ModuleRegistry extends SimpleRegistry<Module> {
