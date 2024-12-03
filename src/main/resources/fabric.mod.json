@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "Equalizer",
-  "id": "meteor-client",
+  "id": "equalizer",
   "version": "${version}",
   "description": "Based utility fork.",
   "authors": [
